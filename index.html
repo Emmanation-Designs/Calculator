@@ -3,12 +3,23 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" href="https://github.com/Emmanation-Designs/Calculator/raw/main/myicon.jpg">
+
+  <!-- ✅ Favicon / Site Icons -->
+  <!-- Local root icon that Google prefers -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <!-- PNG fallback -->
+  <link rel="icon" href="/favicon.png" type="image/png">
+  <!-- Optional: keep the GitHub-hosted JPG as an extra source -->
+  <link rel="alternate icon" href="https://github.com/Emmanation-Designs/Calculator/raw/main/myicon.jpg" type="image/jpeg">
+  <link rel="apple-touch-icon" href="/favicon.png">
+
   <title>Emmanation Calculator APK - Download Free Android App</title>
 
   <!-- SEO Meta Tags -->
-  <meta name="description" content="Download the latest version of Emmanation Designs Calculator APK for Android. Fast, reliable, and accurate calculator app built by Emmanation Designs." />
-  <meta name="keywords" content="Emmanation Designs, Calculator APK, free calculator app, Android calculator download, Emmanuel Nwaije, Nigerian developer" />
+  <meta name="description"
+        content="Download the latest version of Emmanation Designs Calculator APK for Android. Fast, reliable, and accurate calculator app built by Emmanation Designs." />
+  <meta name="keywords"
+        content="Emmanation Designs, Calculator APK, free calculator app, Android calculator download, Emmanuel Nwaije, Nigerian developer" />
   <meta name="author" content="Emmanuel Nwaije" />
   <meta name="robots" content="index, follow" />
 
@@ -49,7 +60,6 @@
       animation: fadeIn 0.8s ease-in-out;
     }
 
-    /* Heading */
     .card h1 {
       font-size: 28px;
       color: #222;
@@ -57,7 +67,6 @@
       font-weight: 600;
     }
 
-    /* Description */
     .card p {
       font-size: 16px;
       color: #555;
@@ -65,7 +74,6 @@
       line-height: 1.5;
     }
 
-    /* Download Button */
     .download-btn {
       display: inline-block;
       font-size: 18px;
@@ -85,38 +93,29 @@
       transform: translateY(-2px);
     }
 
-    /* Fade-in Animation */
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
+      to   { opacity: 1; transform: translateY(0); }
     }
 
-    /* Mobile Adjustments */
     @media (max-width: 500px) {
-      .card {
-        padding: 30px 20px;
-      }
-      .card h1 {
-        font-size: 24px;
-      }
-      .download-btn {
-        font-size: 16px;
-        padding: 12px 28px;
-      }
+      .card { padding: 30px 20px; }
+      .card h1 { font-size: 24px; }
+      .download-btn { font-size: 16px; padding: 12px 28px; }
     }
   </style>
 </head>
 <body>
   <div class="card">
     <h1>📱 Download Calculator App</h1>
-    <p>Get the latest version of <strong>Emmanation Calculator</strong> for Android.  
+    <p>Get the latest version of <strong>Emmanation Calculator</strong> for Android.
        Fast, reliable, and works perfectly offline.</p>
 
-    <a class="download-btn" 
-       href="https://github.com/Emmanation-Designs/Calculator/raw/main/EmmanationCalc%20(1).apk" 
+    <a class="download-btn"
+       href="https://github.com/Emmanation-Designs/Calculator/raw/main/EmmanationCalc%20(1).apk"
        download>
        ⬇ Download APK
     </a>
   </div>
 </body>
-  </html>
+    </html>
